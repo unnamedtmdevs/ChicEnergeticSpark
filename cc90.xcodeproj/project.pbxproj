@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		824123C52EE7234F00D44D4C /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 824123C42EE7234F00D44D4C /* AppsFlyerLib */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		78BD0EB32ECBDE820007C67E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -56,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824123C52EE7234F00D44D4C /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +112,6 @@
 			);
 			name = cc90;
 			packageProductDependencies = (
-				824123C42EE7234F00D44D4C /* AppsFlyerLib */,
 			);
 			productName = cc90;
 			productReference = 78BD0EA52ECBDE800007C67E /* cc90.app */;
@@ -202,7 +196,6 @@
 			mainGroup = 78BD0E9C2ECBDE800007C67E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				824123C32EE7234F00D44D4C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 78BD0EA62ECBDE800007C67E /* Products */;
@@ -593,25 +586,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		824123C32EE7234F00D44D4C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.17.8;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		824123C42EE7234F00D44D4C /* AppsFlyerLib */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 824123C32EE7234F00D44D4C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
-			productName = AppsFlyerLib;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78BD0E9D2ECBDE800007C67E /* Project object */;
 }

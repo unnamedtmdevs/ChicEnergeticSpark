@@ -11,8 +11,7 @@ import SwiftUI
 struct cc90App: App {
     
     init() {
-        // Инициализируем AppsFlyer при запуске приложения
-        _ = AppsFlyerManager.shared
+        // Убрали инициализацию AppsFlyer
     }
     
     var body: some Scene {
